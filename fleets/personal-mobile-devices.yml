@@ -66,8 +66,8 @@ controls:
   #   minimum_version: "18.5"
 controls:
   ipados_updates:
-  deadline: "2026-07-30"
-  minimum_version: "26.2"
+    deadline: "2026-07-30"
+    minimum_version: "26.2"
 
 ###########################################################
 # Apps to make available from the Apple App Store or Google Play
