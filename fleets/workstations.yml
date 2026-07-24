@@ -189,7 +189,7 @@ software:
 
   packages:
     -path: ../scripts/zoom-config.sh
-      self-service: true
+      self_service: true
       setup_experience: true
       categories:
         -Communication
