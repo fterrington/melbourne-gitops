@@ -187,9 +187,12 @@ software:
     #   labels_include_any:
     #     - "x86-based Windows hosts"
 
-  packages: # Custom packages (if any)
-    # macOS custom packages
-    # …
+  packages:
+    -path: ../scripts/zoom-config.sh
+      self-service: true
+      setup_experience: true
+      categories:
+        -Communication
 
     # Windows custom packages
     # …
