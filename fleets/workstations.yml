@@ -169,11 +169,11 @@ software:
   fleet_maintained_apps:
     # macOS apps
     # …
-    # - slug: slack/darwin # Slack for macOS
-    #   self_service: true
-    #   setup_experience: true
-    #   categories:
-    #     - Communication
+     - path: ../plaftorms/macos/software/zoom.yml
+       self_service: true
+       setup_experience: true
+       categories:
+         - Communication
     #     - Productivity
 
     # Windows apps
@@ -186,13 +186,6 @@ software:
     #     - Communication
     #   labels_include_any:
     #     - "x86-based Windows hosts"
-
-  packages:
-    -path: ../platforms/macos/software/zoom.yml
-      self_service: true
-      setup_experience: true
-      categories:
-        -Communication
 
     # Windows custom packages
     # …
