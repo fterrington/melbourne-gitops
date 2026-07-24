@@ -158,7 +158,6 @@ policies:
   - paths: ../platforms/macos/policies/*.yml
   - paths: ../platforms/windows/policies/*.yml
   - paths: ../platforms/linux/policies/*.yml
-  - paths: ../scripts/set-dns-cloudflare.sh
 
 ###########################################################
 # Software available for install
