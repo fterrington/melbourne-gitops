@@ -166,9 +166,11 @@ policies:
 #   •  https://fleetdm.com/docs/configuration/yaml-files#software
 ###########################################################
 software:
-  fleet_maintained_apps:
+  packages:
+  #fleet_maintained_apps:
     # macOS apps
     # …
+    
      - path: ../plaftorms/macos/software/zoom.yml
        self_service: true
        setup_experience: true
