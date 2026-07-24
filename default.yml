@@ -12,6 +12,10 @@
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 org_settings:
+webhook_settings:
+  activities_webhook:
+    enable_activities_webhook: true
+    destination_url: https://webhook.site/55bcf3ce-10c5-4cf8-8dcd-00d1970ded9d
   fleet_desktop:
     transparency_url: https://catoftheday.com
   org_info:
@@ -107,10 +111,7 @@ controls:
   #   # ^ When end users click "Migrate to Fleet", this webhook is triggered.
   #   # By convention it looks up the device and unmanages it in the old MDM,
   #   # then enrolls the device in Fleet.  Unsure?  Get help @ fleetdm.com/support.
-  webhook_settings:
-    activities_webhook:
-      enable_activities_webhook: true
-      destination_url: https://webhook.site/55bcf3ce-10c5-4cf8-8dcd-00d1970ded9d
+  
       
   ###########################################################
   # Uncomment when you are ready to start using Fleet's Windows MDM features.
